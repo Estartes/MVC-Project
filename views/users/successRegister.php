@@ -1,5 +1,6 @@
 <?php
     $title = 'Успешная регистрация';
+    include_once __DIR__ . "/../header.php";
 ?>
 <div class="container">
     <div class="row">
@@ -15,3 +16,5 @@
         <div class="col"></div>
     </div>
 </div>
+<?php
+ include_once __DIR__ . "/../footer.php";
