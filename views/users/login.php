@@ -3,7 +3,7 @@ $title = 'Авторизация в системе';
 @include_once __DIR__ . '/../header.php';
 ?>
 
-<?= ( isset($_GET['error_auth'])
+<?= ( isset($errors['error_auth'])
     ? "<div class='alert alert-danger'>Логин и пароль не верный!</div>"
     : "" )
 ?>
